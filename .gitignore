@@ -1,0 +1,32 @@
+*.class
+*.jar
+*.war
+bin/
+out/
+build/
+target/
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+temp/
+
+# Old root-level practice files kept out of Git
+calculator.java
+discount.java
+even_odd.java
+fav_num.java
+lucky_num.java
+name_age.java
+pizza.java
+Print.java
+Solution.java
+weather.java
+Print.class
+Assignment codes/
