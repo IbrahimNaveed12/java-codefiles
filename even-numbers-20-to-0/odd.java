@@ -1,8 +1,7 @@
 public class odd
 {
 	public static void main(String[] args)
-	{
-		int i = 20;
+	{		System.out.println("Even Numbers 20 to 0 Program");		int i = 20;
 		int count = 0;
 		while (i >= 1)
 			

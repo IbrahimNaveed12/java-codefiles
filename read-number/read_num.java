@@ -1,4 +1,4 @@
-// A PROGRAM THAT READS AN INTEGER BETWEEN 1 AND 10 BY USER USING WHILE LOOP
+// Read Number Between 1 and 10 Program
 import java.util.Scanner;
 
 public class read_num 
@@ -7,6 +7,7 @@ public class read_num
 	{
         Scanner obj = new Scanner(System.in);
 
+        System.out.println("Read Number Between 1 and 10 Program");
         System.out.print("Enter a number between 1 and 10: ");
         int i = obj.nextInt();
 

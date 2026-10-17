@@ -1,4 +1,4 @@
-//Exercise 4 : Read integers until the user enters 0. Count how many nonzero integers were entered.
+// Non-Zero Counter Program
 import java.util.Scanner;
 
 public class dowhile
@@ -9,6 +9,7 @@ public class dowhile
         int num;
         int count = 0;
 
+        System.out.println("Non-Zero Counter Program");
         do
         {
             System.out.println("Enter integers [to stop enter 0]");
