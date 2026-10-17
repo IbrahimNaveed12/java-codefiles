@@ -1,0 +1,20 @@
+public class odd
+{
+	public static void main(String[] args)
+	{
+		int i = 20;
+		int count = 0;
+		while (i >= 1)
+			
+		{
+			if (i % 2 == 0)
+			count ++ ;
+		System.out.println(i);
+			i-- ;
+			
+		}
+			System.out.println("The even number between 20 and 0 are " + count);									
+		
+	} 	
+	
+}
