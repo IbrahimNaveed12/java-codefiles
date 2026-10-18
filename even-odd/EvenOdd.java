@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class even_odd
+public class EvenOdd
 {
 	public static void main(String [] args)
 	{
@@ -8,14 +8,14 @@ public class even_odd
 		int num = obj.nextInt();
 		 if (num % 2 == 0)
 			System.out.println("EVEN");
-		
-		 if (num % 2 == 1)
+
+		 else
 			System.out.println("ODD");
 
-			 
+
 	}
-	
-	
-	
-	
+
+
+
+
 }

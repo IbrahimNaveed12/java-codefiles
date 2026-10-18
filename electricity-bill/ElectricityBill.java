@@ -1,7 +1,7 @@
 // Calculates the electricity bill using units consumed and price per unit.
 
 import java.util.Scanner;
-public class bill
+public class ElectricityBill
 {
 	public static void main(String[] args)
 	{
@@ -9,7 +9,7 @@ public class bill
 		System.out.println("---- Electricity Bill ----");
 		System.out.print("Customer Name: ");
 		String name = obj.nextLine();
-		
+
 		System.out.print("Units Consumed: ");
 		float units = obj.nextFloat();
 		System.out.print("Price per Unit: ");
@@ -17,7 +17,7 @@ public class bill
 		double total = units * price ;
 		System.out.print("Total Bill: " + total);
 	}
-	
-	
-	
+
+
+
 }

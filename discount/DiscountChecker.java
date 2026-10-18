@@ -1,7 +1,7 @@
 // Checks the purchase amount and membership type to decide the discount.
 
 import java.util.Scanner;
-public class discount
+public class DiscountChecker
 {
 	public static void main(String[] args)
 	{
@@ -13,40 +13,40 @@ public class discount
 					{
 						System.out.println("Enter 1 for premimum membership & 0 for regular :");
 							int membership = obj.nextInt();
-							
+
 								if (membership == 1)
-								
+
 									System.out.println("20% Discount");
-									
-									
-								
-								else 
-									
-										
+
+
+
+								else
+
+
 										System.out.println("10% Discount");
-																			
-										
-									
-									
-									
-								
-								
-								
+
+
+
+
+
+
+
+
 								}
-		
-					else 
+
+					else
 					{
-						
+
 							System.out.println("No Discount");
 
-						
+
 					}
-		
-		
-	} 	
-	
-	
-	
-	
-	
+
+
+	}
+
+
+
+
+
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class grade {
+public class GradeChecker {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter Marks");

@@ -1,16 +1,11 @@
-# Odd Number Pattern
+# Even Numbers from 20 to 0
 
-## Problem Title & Summary
+## Problem Summary
 Print the even numbers from 20 down to 0 and count how many values are printed.
 
-## Logic & Approach
-The program starts from 20 and decreases with a `while` loop. For each value, it checks whether the number is even using `% 2 == 0`, prints it, and increments the count.
+The program starts at 20 and decreases to 0 with a `while` loop. It prints and counts only even values.
 
-## Time & Space Complexity
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-## Example Input & Output
+## Example
 ```text
 20
 18
@@ -23,5 +18,7 @@ Space Complexity: O(1)
 4
 2
 0
-The even number between 20 and 0 are 10
+The even numbers between 20 and 0 are 11
 ```
+
+Compile and run with `javac EvenNumbersTwentyToZero.java` and `java EvenNumbersTwentyToZero`.

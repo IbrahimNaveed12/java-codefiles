@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fail_pass {
+public class PassFail {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter marks");

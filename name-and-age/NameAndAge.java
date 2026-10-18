@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class name_age
+public class NameAndAge
 {
 public static void main(String[] args)
 {
@@ -9,8 +9,8 @@ public static void main(String[] args)
 		String name = obj.nextLine();
 		int age = obj.nextInt();
 		System.out.println(" Your name is " + name + " and your age is " + age);
-	
-	
+
+
 }
 
 

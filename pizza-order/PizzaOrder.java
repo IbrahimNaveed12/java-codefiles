@@ -4,14 +4,14 @@
 //display "Invalid Pizza Size". If no pizza was ordered, display "No Pizza Ordered".
 
 import java.util.Scanner;
-public class pizza 
+public class PizzaOrder
 {
-public static void main(String[] args) 
+public static void main(String[] args)
 {
 Scanner input = new Scanner(System.in);
 System.out.print("Press to order pizza (1 = Pizza, 0 = No Pizza) : ");
 int order = input.nextInt();
-if (order == 1) 
+if (order == 1)
 {
 System.out.print("Size (1 = Small, 2 = Medium, 3 = Large): ");
 int size = input.nextInt();
@@ -24,7 +24,7 @@ System.out.println("Large Pizza price is 1000RS");
 else
 System.out.println("Invalid Pizza Size");
 }
-else 
+else
 {
 System.out.println("No Pizza Ordered");
 }

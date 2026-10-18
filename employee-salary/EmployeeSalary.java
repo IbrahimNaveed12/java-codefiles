@@ -1,7 +1,7 @@
 // Calculates the gross salary by adding the basic salary and house allowance.
 
 import java.util.Scanner;
-public class Electricitybill
+public class EmployeeSalary
 {
 	public static void main(String[] args)
 	{
@@ -9,7 +9,7 @@ public class Electricitybill
 		System.out.println("----- Employee Salary -----");
 		System.out.print("Employee Name: ");
 		String name = obj.nextLine();
-		
+
 		System.out.print("Basic Salary: ");
 		float units = obj.nextFloat();
 		System.out.print("House Allowance: ");
@@ -17,7 +17,7 @@ public class Electricitybill
 		double total = units + price ;
 		System.out.print("Gross Salary: " + total);
 	}
-	
-	
-	
+
+
+
 }

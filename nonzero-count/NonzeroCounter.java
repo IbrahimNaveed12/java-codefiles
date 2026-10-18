@@ -1,7 +1,7 @@
 // Non-Zero Counter Program
 import java.util.Scanner;
 
-public class dowhile
+public class NonzeroCounter
 {
     public static void main(String[] args)
     {
@@ -15,11 +15,13 @@ public class dowhile
             System.out.println("Enter integers [to stop enter 0]");
             num = obj.nextInt();
 
-          
-             if (num != 0) 
-			 {
+
+
+
+            if (num != 0) {
                 count++;
-			 }
+            }
+
 
         } while (num != 0);
 

@@ -13,11 +13,11 @@ Space Complexity: O(1)
 ## Example Input & Output
 ```text
 --- Travel Cost ---
-Traveler Name : Ali
+Traveler Name: Ali
 Distance: 300
 Fuel Consumption: 20
 Fuel Price: 120
 
-Fuel Required: 15.0per liter
+Fuel Required: 15.0 liters
 Estimated Fuel Cost: 1800.0
 ```

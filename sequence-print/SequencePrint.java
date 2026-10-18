@@ -1,4 +1,4 @@
-public class q4
+public class SequencePrint
 {
     public static void main(String[] args)
     {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class vote {
+public class VotingEligibility {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class vote {
 
         if (age >= 18) {
             if (citizen) {
-                System.out.println("Eligible to work");
+                System.out.println("Eligible to vote");
             }
         }
     }

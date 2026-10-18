@@ -1,9 +1,9 @@
 // Read Number Between 1 and 10 Program
 import java.util.Scanner;
 
-public class read_num 
+public class ReadNumberBetweenOneAndTen
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
 	{
         Scanner obj = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class read_num
         System.out.print("Enter a number between 1 and 10: ");
         int i = obj.nextInt();
 
-        while (i < 1 || i > 10) 
+        while (i < 1 || i > 10)
 		{
             System.out.print(i + " is not between 1 and 10. Try again: ");
             i = obj.nextInt();
